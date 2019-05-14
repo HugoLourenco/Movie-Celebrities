@@ -30,6 +30,7 @@ export default class App extends Component {
         // <div className="All">
         <div className="App">
         <h1>Movie Celebrities</h1>
+        <input type="text" placeholder="Search for a Celeb"></input>
       
       {this.state.celebrities.map(celebrities => 
       <ul key={celebrities.id}><img src={"https://image.tmdb.org/t/p/w185"
